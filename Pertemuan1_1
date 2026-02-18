@@ -1,0 +1,10 @@
+nama_kelas="Struktur Data"
+jumlah_mahasiswa=3
+
+nilai_rata=0.0
+kelas_aktif=True
+
+print(nama_kelas)
+print(jumlah_mahasiswa)
+print(nilai_rata)
+print(kelas_aktif)
