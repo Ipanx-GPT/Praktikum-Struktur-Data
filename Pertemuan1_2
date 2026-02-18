@@ -1,0 +1,7 @@
+nama = input("Masukkan nama mahasiswa: ")
+umur = int(input("Masukkan umur: "))
+ipk = float(input("Masukkan IPK: "))
+
+print("Nama :", nama)
+print("Umur :", umur)
+print("IPK :", ipk)
