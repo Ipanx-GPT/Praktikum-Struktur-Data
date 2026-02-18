@@ -1,0 +1,16 @@
+data_nilai = []
+
+jumlah = int(input("Masukkan jumlah mahasiswa: "))
+
+for i in range(jumlah):
+  print(f"\nMahasiswa ke-{i+1}")
+
+  tugas = float(input("Nilai tugas: "))
+  uts = float(input("Nilai UTS: "))
+  uas = float(input("Ninlai UAS: "))
+
+  data_nilai.append({tugas, uts, uas})
+
+print("\nData Nilai Mahasiswa: ")
+for baris in data_nilai:
+  print(baris)
